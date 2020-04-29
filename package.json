@@ -14,6 +14,7 @@
   "devDependencies": {
     "babel-eslint": "^10.0.3",
     "dotenv": "^8.2.0",
+    "env-cmd": "^10.1.0",
     "eslint": "^6.3.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.1.0",
@@ -28,6 +29,7 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
+    "build:staging": "env-cmd -f .env.staging craco build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
