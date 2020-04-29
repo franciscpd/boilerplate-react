@@ -22,10 +22,13 @@
     "@testing-library/user-event": "^7.1.2",
     "craco": "^0.0.3",
     "craco-plugin-react-hot-reload": "^0.1.0",
+    "env-cmd": "^10.1.0",
+    "git-commit-msg-linter": "^2.4.2",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.0",
     "react": "^16.13.1",
     "react-hot-loader": "^4.12.20",
-    "react-scripts": "3.4.1",
-    "env-cmd": "^10.1.0"
+    "react-scripts": "3.4.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
@@ -42,6 +45,7 @@
     "prettier": "^1.18.2"
   },
   "scripts": {
+    "lint": "npx eslint src/**/*.js --fix",
     "start": "craco start",
     "build": "craco build",
     "build:staging": "env-cmd -f .env.staging craco build",

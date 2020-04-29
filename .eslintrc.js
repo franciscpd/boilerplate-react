@@ -13,7 +13,10 @@ module.exports = {
       alias: {
         map: [
           ['@components', './src/components'],
+          ['@services', './src/services'],
+          ['@view', './src/view'],
           ['@shared', './src/shared'],
+          ['@config', './src/config'],
         ],
       },
     },
