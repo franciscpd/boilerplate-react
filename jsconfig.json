@@ -9,7 +9,7 @@
       "@shared/*": ["./shared/*"],
       "@services/*": ["./services/*"],
       "@components/*": ["./components/*"],
-      "@view/*": ["./view/*"],
+      "@modules/*": ["./modules/*"],
       "@config/*": ["./config/*"]
     }
   }

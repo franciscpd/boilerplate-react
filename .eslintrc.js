@@ -14,7 +14,7 @@ module.exports = {
         map: [
           ['@components', './src/components'],
           ['@services', './src/services'],
-          ['@view', './src/view'],
+          ['@modules', './src/modules'],
           ['@shared', './src/shared'],
           ['@config', './src/config'],
         ],
