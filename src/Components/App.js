@@ -1,7 +1,8 @@
+import { hot } from 'react-hot-loader/root';
 import React from 'react';
 
 const App = () => {
-  return <div className="App" />;
+  return <div className="App">Welcome</div>;
 };
 
-export default App;
+export default hot(App);

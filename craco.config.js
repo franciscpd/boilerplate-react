@@ -1,7 +1,12 @@
 const path = require('path');
+const reactHotReloadPlugin = require('craco-plugin-react-hot-reload');
 
 module.exports = {
-  plugins: [],
+  plugins: [
+    {
+      plugin: reactHotReloadPlugin,
+    },
+  ],
   webpack: {
     alias: {
       '@shared': path.resolve(__dirname, 'src', 'shared'),

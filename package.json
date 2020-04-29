@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@hot-loader/react-dom": "^16.13.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "craco": "^0.0.3",
+    "craco-plugin-react-hot-reload": "^0.1.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react-hot-loader": "^4.12.20",
     "react-scripts": "3.4.1"
   },
   "devDependencies": {
@@ -47,5 +49,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "alias": { "react-dom": "@hot-loader/react-dom"  }
 }
