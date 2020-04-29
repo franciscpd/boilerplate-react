@@ -9,10 +9,6 @@
     "react",
     "bolerplate"
   ],
-  "bugs": {
-    "url": "https://github.com/franciscpd/boilerplate-react/issues"
-  },
-  "homepage": "https://github.com/franciscpd/boilerplate-react#readme",
   "author": "Francisross Soares de Oliveira <franciscpd@gmail.com> (https://franciscpd.dev)",
   "license": "MIT",
   "dependencies": {
