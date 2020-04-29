@@ -1,7 +1,20 @@
 {
-  "name": "upload-file-strapi",
+  "name": "boilerplate-react",
+  "description": "Boilerplate react with craco",
   "version": "0.1.0",
   "private": true,
+  "repository": "git@github.com:franciscpd/boilerplate-react.git",
+  "keywords": [
+    "js",
+    "react",
+    "bolerplate"
+  ],
+  "bugs": {
+    "url": "https://github.com/franciscpd/boilerplate-react/issues"
+  },
+  "homepage": "https://github.com/franciscpd/boilerplate-react#readme",
+  "author": "Francisross Soares de Oliveira <franciscpd@gmail.com> (https://franciscpd.dev)",
+  "license": "MIT",
   "dependencies": {
     "@hot-loader/react-dom": "^16.13.0",
     "@testing-library/jest-dom": "^4.2.4",
@@ -11,12 +24,12 @@
     "craco-plugin-react-hot-reload": "^0.1.0",
     "react": "^16.13.1",
     "react-hot-loader": "^4.12.20",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "env-cmd": "^10.1.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
     "dotenv": "^8.2.0",
-    "env-cmd": "^10.1.0",
     "eslint": "^6.3.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.1.0",
@@ -50,5 +63,7 @@
       "last 1 safari version"
     ]
   },
-  "alias": { "react-dom": "@hot-loader/react-dom"  }
+  "alias": {
+    "react-dom": "@hot-loader/react-dom"
+  }
 }
